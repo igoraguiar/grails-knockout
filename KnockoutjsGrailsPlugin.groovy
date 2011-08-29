@@ -1,7 +1,10 @@
 class KnockoutjsGrailsPlugin {
+    def koStable='1.2.1'
+    def koUnstable='1.3-20110826'
+    
     String groupId = 'br.com.geocontrol.grails.plugin.ko'
     // the plugin version
-    def version = "0.1"
+    def version = koStable
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.3.0 > *"
     // the other plugins this plugin depends on
@@ -11,9 +14,6 @@ class KnockoutjsGrailsPlugin {
             "grails-app/views/error.gsp",
             "grails-app/views/index.gsp"
     ]
-
-    def koStable='1.2.1'
-    def koUnstable='1.3-20110826'
 
     def author = "Igor Aguiar Rodrigues"
     def authorEmail = "igor@geocontrol.com.br"
