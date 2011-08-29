@@ -1,4 +1,4 @@
-<plugin name='knockoutjs' version='0.1' grailsVersion='1.3.0 &gt; *'>
+<plugin name='knockoutjs' version='1.2.1' grailsVersion='1.3.0 &gt; *'>
   <author>Igor Aguiar Rodrigues</author>
   <authorEmail>igor@geocontrol.com.br</authorEmail>
   <title>Knockoutjs for Grails</title>
@@ -11,6 +11,7 @@ Unstable knockoutjs version: 1.3-20110826
     <resource>BuildConfig</resource>
     <resource>Config</resource>
     <resource>DataSource</resource>
+    <resource>KnockoutPluginResources</resource>
     <resource>UrlMappings</resource>
     <resource>br.com.geocontrol.grails.plugin.ko.KoTagLib</resource>
   </resources>
