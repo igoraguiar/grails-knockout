@@ -1,0 +1,1 @@
+Same license as knockout: MIT http://www.opensource.org/licenses/mit-license.php
