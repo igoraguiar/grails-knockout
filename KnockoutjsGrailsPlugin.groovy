@@ -4,7 +4,7 @@ class KnockoutjsGrailsPlugin {
     
     String groupId = 'br.com.geocontrol.grails.plugin.ko'
     // the plugin version
-    def version = koStable
+    def version = koStable + '.2'
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.3.0 > *"
     // the other plugins this plugin depends on
