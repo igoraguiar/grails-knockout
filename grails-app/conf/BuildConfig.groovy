@@ -20,7 +20,7 @@ grails.project.dependency.resolution = {
     }
     plugins {
         runtime ':hibernate:1.3.7'
-        runtime ':maven-publisher:0.8.1'
+        build ':release:1.0.0.RC3'
         runtime ':tomcat:1.3.7'
     }
 }
