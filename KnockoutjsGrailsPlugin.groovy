@@ -1,6 +1,6 @@
 class KnockoutjsGrailsPlugin {
     def koStable='1.2.1'
-    def koUnstable='1.3-20110826'
+    def koUnstable='1.3.0rc'
     
     String groupId = 'br.com.geocontrol.grails.plugin.ko'
     // the plugin version
