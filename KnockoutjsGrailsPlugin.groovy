@@ -1,10 +1,9 @@
 class KnockoutjsGrailsPlugin {
-    def koStable='1.2.1'
-    def koUnstable='1.3.0rc'
-    
+    def koStable='2.0.0'
+
     String groupId = 'br.com.geocontrol.grails.plugin.ko'
     // the plugin version
-    def version = koStable + '.2'
+    def version = koStable + '.0'
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.3.0 > *"
     // the other plugins this plugin depends on
@@ -20,7 +19,6 @@ class KnockoutjsGrailsPlugin {
     def title = "Knockoutjs for Grails"
     def description = """Provides necessary Javascript files for using Knockoutjs (http://knockoutjs.com/) with grails.
 Stable knockoutjs version: ${koStable}
-Unstable knockoutjs version: ${koUnstable}
 """
 
     // URL to the plugin's documentation
