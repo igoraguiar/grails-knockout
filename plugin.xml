@@ -1,20 +1,19 @@
-<plugin name='knockoutjs' version='1.2.1.2' grailsVersion='1.3.0 &gt; *'>
+<plugin name='knockoutjs' version='(koStable + .0)' grailsVersion='1.3.0 &gt; *'>
   <author>Igor Aguiar Rodrigues</author>
   <authorEmail>igor@geocontrol.com.br</authorEmail>
   <title>Knockoutjs for Grails</title>
   <description>Provides necessary Javascript files for using Knockoutjs (http://knockoutjs.com/) with grails.
-Stable knockoutjs version: 1.2.1
-Unstable knockoutjs version: 1.3.0rc
+Stable knockoutjs version: $koStable
 </description>
   <documentation>http://grails.org/plugin/grails-knockoutjs</documentation>
+  <type>KnockoutjsGrailsPlugin</type>
   <resources>
-    <resource>BuildConfig</resource>
-    <resource>Config</resource>
-    <resource>DataSource</resource>
     <resource>KnockoutPluginResources</resource>
-    <resource>UrlMappings</resource>
     <resource>br.com.geocontrol.grails.plugin.ko.KoTagLib</resource>
   </resources>
+  <repositories />
   <dependencies />
+  <plugins />
+  <runtimePluginRequirements />
   <behavior />
 </plugin>
