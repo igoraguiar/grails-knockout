@@ -15,12 +15,9 @@ GrailsPluginManager pluginManager = appCtx.pluginManager
 GrailsPlugin plugin = pluginManager.getGrailsPlugin(pluginName)
 
 String koStableVersion = plugin.instance.koStable
-String koUnstableVersion = plugin.instance.koUnstable
 
 String stableFileName = "knockout-${koStableVersion}.js"
 String stableDevFileName = "knockout-${koStableVersion}.debug.js"
-String unstableFileName = "knockout-${koUnstableVersion}.js"
-String unstableDevFileName = "knockout-${koUnstableVersion}.debug.js"
 
 modules = {
     'knockout' {
@@ -28,11 +25,5 @@ modules = {
     }
     'knockout-dev' {
         resource id: 'js', url:[plugin: pluginName, dir: 'js/knockoutjs', file: stableDevFileName], disposition: 'head'
-    }
-    'knockout-unstable' {
-        resource id: 'js', url:[plugin: pluginName, dir: 'js/knockoutjs', file: unstableFileName], disposition: 'head'
-    }
-    'knockout-unstable-dev' {
-        resource id: 'js', url:[plugin: pluginName, dir: 'js/knockoutjs', file: unstableDevFileName], disposition: 'head'
     }
 }
